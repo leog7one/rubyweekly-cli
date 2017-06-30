@@ -1,0 +1,7 @@
+Author = article_table.css('div:first').text
+
+Title = article_table.css('a:first').text
+
+URL = article_table.css('a:first').attr('href')
+
+Descrip = article_table.css('div:last').text
